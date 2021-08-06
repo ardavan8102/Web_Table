@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Css Reset (Reset dadan padding o margin browser(default)*/
+}
+
+body {
+    background-color: gray;
+}
+
+.title {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 510px;
+    color: red;
+    border: solid 3px red;
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    height: 300px;
+}
+.card1 {
+    width: 450px;
+    height: 300px;
+    margin: auto 20px;
+    font-size: xx-large;
+    background-color: white;
+    border-radius: 10%;
+}
+.card1 img {
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 113px;
+    margin-top: 10px;
+}
+.card1 h3 {
+    text-align: center;
+}
+.card1 h5 {
+    text-align: center;
+}
+
+.cards hr {
+    width: 5px;
+    background-color: red;
+}
